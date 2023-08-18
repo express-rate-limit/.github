@@ -12,8 +12,7 @@ body:
     attributes:
       label: Description
       description: |
-        Describe the issue and how to replicate it. If possible, please include
-        a minimal example to reproduce the issue.
+        Describe the issue and how to replicate it. If possible, please include a minimal example to reproduce the issue.
     validations:
       required: true
   - type: input
@@ -33,14 +32,12 @@ body:
     attributes:
       label: Typescript version (if you are using it)
       description: |
-        Can be found the `typescript` field in the `dependencies` or
-        `devDependencies` field of `package.json`
+        Can be found the `typescript` field in the `dependencies` or `devDependencies` field of `package.json`
   - type: dropdown
     attributes:
       label: Module system
       description: |
-        If you have `type: module` in your `package.json` file, then you are
-        using ESM, else you are using CommonJS.
+        If you have `type: module` in your `package.json` file, then you are using ESM, else you are using CommonJS.
       options:
         - ESM
         - CommonJS
