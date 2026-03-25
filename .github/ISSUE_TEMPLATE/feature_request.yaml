@@ -11,7 +11,7 @@ body:
   - type: textarea
     attributes:
       label: Description
-      description: Describe the feature in detail
+      description: Describe the feature in detail.
     validations:
       required: true
   - type: textarea
@@ -23,6 +23,6 @@ body:
   - type: textarea
     attributes:
       label: Alternatives
-      description: Describe the alternatives you have considered, or existing workarounds
+      description: Describe the alternatives you have considered, or existing workarounds.
     validations:
       required: true

@@ -24,6 +24,13 @@ body:
       required: true
   - type: input
     attributes:
+      label: Express version
+      description: |
+        The value of the `express` key in the `dependencies` or `devDependencies` field of `package.json`
+    validations:
+      required: true
+  - type: input
+    attributes:
       label: Node version
       description: Output of the `node --version` command
     validations:
@@ -32,7 +39,7 @@ body:
     attributes:
       label: Typescript version (if you are using it)
       description: |
-        Can be found the `typescript` field in the `dependencies` or `devDependencies` field of `package.json`
+        The value of the `typescript` key in the `dependencies` or `devDependencies` field of `package.json`
   - type: dropdown
     attributes:
       label: Module system
